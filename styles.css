@@ -166,6 +166,7 @@ span {
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
+    color: #1d52e4;
 }
 
 .about-img img {

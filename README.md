@@ -10,6 +10,7 @@ Layout Responsivo | Portifólio (Em construção)
 - [Autor](#autor)
 - [Tecnologia](#Tecnologia)
 - [Agradecimentos](#agradecimentos)
+- [Referências](#Referências)
 
 
 ## Instalação
@@ -49,3 +50,17 @@ Foi utilizado as seguintes tecnologias:
 ## Agradecimentos
 
 Obrigado por visitar meu repositório! 🙂🫡
+
+## Referências
+<div style="display: inline_block"><br>
+   <img align="center" alt="Js" height="46" width="233" src="assets/Captura de tela 2024-06-16 102750.png">
+</div>
+ScrollReveal JS <br>
+<a style="color: #1d52e4;" href="https://scrollrevealjs.org/guide/customization.html" target="_blank">Acesse o site</a>
+
+<div style="display: inline_block"><br>
+   <img align="center" alt="Js" height="46" width="233" src="assets/Captura de tela 2024-06-16 104014.png">
+</div>
+UNPKG TypedJS <br>
+<a style="color: #1d52e4;" href="https://unpkg.com/browse/typed.js@2.0.12/README.md" target="_blank">Acesse o site</a>
+
