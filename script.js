@@ -1,8 +1,8 @@
 /* Toggle Icon Navbar */
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
-console.log(navbar)
 menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-menu');
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
@@ -32,6 +32,7 @@ window.onscroll = () => {
 
     /*====== Remove Toggle Icon And Navbar When Click Navbar Link (Scroll) =======*/
     menuIcon.classList.remove('bx-x');
+    menuIcon.classList.remove('bx-menu');
     navbar.classList.remove('active');
 };
 
