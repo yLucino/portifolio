@@ -2,13 +2,13 @@
 
 <img src="assets/AnimaçãoProjetoDesktop.gif" alt="imagem do projeto final">
 
-Layout Responsivo | Portifólio (Em construção)
+Layout Responsivo | Portifólio
 
 ## Índice
 
 - [Instalação](#instalação)
 - [Autor](#autor)
-- [Tecnologia](#Tecnologia)
+- [Tecnologia](#tecnologia)
 - [Agradecimentos](#agradecimentos)
 - [Referências](#Referências)
 

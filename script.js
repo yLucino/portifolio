@@ -1,13 +1,13 @@
-/*============================== Toggle Icon Navbar ==============================*/
+/* Toggle Icon Navbar */
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
-
+console.log(navbar)
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
 
-/*============================== Scroll sections avtive Link ==============================*/
+/* Scroll sections avtive Link */
 let sections = document.querySelectorAll('section')
 let navLinks = document.querySelectorAll('header nav a')
 
@@ -25,7 +25,7 @@ window.onscroll = () => {
             });
         };
     });
-/*============================== Sticky Navbar ==============================*/
+/* Sticky Navbar */
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
@@ -35,7 +35,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
-/*============================== Scroll Reveal ==============================*/
+/* Scroll Reveal */
 ScrollReveal({ 
     reset: true,
     distance: '80px',
@@ -48,7 +48,7 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact 
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-/*============================== Typed Js ==============================*/
+/* Typed Js */
 const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'DevQuest Student', 'React Framework'],
     typeSpeed: 100,

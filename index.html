@@ -3,20 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Dev_yLuciano</title>
 
+    <link rel="shortcut icon" href="assets/logo-portifolio.jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfólio</a>
+        <div class="box-logo">
+            <img class="img-logo" src="assets/logo-portifolio.jpg" alt="logo">
+            <a href="#" class="logo">Dev_yLuciano</a>
+        </div>
         <ion-icon name="menu-outline" class="bx bx-menu" id="menu-icon"></ion-icon>        
         <nav class="navbar">
-            <a href="#home" class="active">Inicio</a>
-            <a href="#about">Sobre</a>
-            <a href="#services">Serviços</a>
-            <a href="#portfolio">Portifolio</a>
-            <a href="#contact">Contato</a>
+            <ul>
+                <li>
+                    <a href="#home" class="active">Inicio</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#services">Serviços</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portifolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -34,18 +50,17 @@
                 <a href="https://www.instagram.com/luci_ano_chi/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/luciano-chiodini-6a35092b3/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
-            <a href="https://www.linkedin.com/in/luciano-chiodini-6a35092b3/" target="_blank" class="btn">Download CV</a>
+            <a href="assets/Curriculo-Luciano-Chiodini.pdf" download="Curriculo-Luciano-Chiodini.pdf" class="btn">Download CV</a>
         </div>
-
         <div class="home-img">
-            <img src="./assents/home.png" alt="">
+            <img src="assets/image-Profile2.jpg" alt="">
         </div>
     </section>
 
     <!-- about section desing -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="./assets/Imagem do WhatsApp de 2024-06-08 à(s) 22.56.17_a8437650.jpg" alt="">
+            <img src="./assets/image-Profile.jpg" alt="">
         </div>
 
         <div class="about-content">
@@ -71,9 +86,7 @@
     <!-- services section desing -->
     <section class="services" id="services">
         <h2 class="heading">Outros <span>Serviços</span></h2>
-
         <div class="services-container">
-            
             <div class="services-box">
                 <ion-icon name="laptop-outline"></ion-icon>
                 <h3>Projetos</h3>
@@ -81,15 +94,13 @@
                 <p>Acesse pelo link abaixo:</p>
                 <a href="https://github.com/yLucino" class="btn" target="_blank">Veja mais</a>
             </div>
-            
             <div class="services-box">
                 <ion-icon name="people-outline"></ion-icon>
                 <h3>Canal do Dc</h3>
                 <p>Entre no meu canal do discord para estar por dentro de atualizações e novos projetos que estão sendo desenvolvidos</p>
                 <p>Acesse pelo link abaixo:</p>
-                    <a href="https://discord.gg/F9NW5xJx" class="btn" target="_blank">Entrar no DC</a>
+                    <a href="https://discord.gg/9TKeu3MQKD" class="btn" target="_blank">Entrar no DC</a>
             </div>
-
             <div class="services-box">
                 <ion-icon name="code-slash-outline"></ion-icon>
                 <h3>Devolper Web</h3>
@@ -103,59 +114,53 @@
     <!-- portifolio section desing -->
     <section class="portfolio" id="portfolio">
         <h2 class="heading">Últimos <span>Projetos</span></h2>
-
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="./assets/portfolio1.jpg">
+                <img src="./assets/portfolio/portfolio1.png">
                 <div class="portfolio-layer">
-                    <h4>Web Desing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, atque!</p>
-                    <a href="https://github.com/yLucino" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    <h4>Landing Page</h4>
+                    <p>Projeto do curso DevQuest: Landing Page com Grid de uma agência.</p>
+                    <a href="https://ylucino.github.io/DevQuest-Projeto-Landing-page-com-grid-agencia/" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
                 </div>
             </div>
-
             <div class="portfolio-box">
-                <img src="./assets/portfolio2.jpg" alt="">
+                <img src="./assets/portfolio/portfolio2.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Desing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, atque!</p>
-                    <a href="https://github.com/yLucino" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    <h4>BarberShop WebSite</h4>
+                    <p>Site para um rede de Barbearia chamada Blade's Palace Barbershop em React.</p>
+                    <a href="https://github.com/yLucino/Blade-s-Palace-Barbershop" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
                 </div>
             </div>
-
             <div class="portfolio-box">
-                <img src="./assets/portfolio3.jpg" alt="">
+                <img src="./assets/portfolio/portfolio3.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Desing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, atque!</p>
-                    <a href="https://github.com/yLucino" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    <h4>Landing Page</h4>
+                    <p>Projeto do curso DevQuest(QUEST): Landing Page HTML e CSS Avançado.</p>
+                    <a href="https://ylucino.github.io/DevQuest-Quest-HTMLeCSSavancado-projeto-HuddleLandingPage/" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
                 </div>
             </div>
-
             <div class="portfolio-box">
-                <img src="./assets/portfolio4.jpg" alt="">
+                <img src="./assets/portfolio/portfolio4.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Desing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, atque!</p>
-                    <a href="https://github.com/yLucino" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    <h4>X-DEVS DevEmDobro</h4>
+                    <p>Projeto da Semana do 0 ao Programador contratado (DevEmDobro)</p>
+                    <a href="https://ylucino.github.io/Projeto-DevEmDobro/" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
                 </div>
             </div>
-
             <div class="portfolio-box">
-                <img src="./assets/portfolio5.jpg" alt="">
+                <img src="./assets/portfolio/portfolio5.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Desing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, atque!</p>
-                    <a href="https://github.com/yLucino" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    <h4>FoodMine Ecommerce</h4>
+                    <p>Projeto em Angular de um modelo de ecommerce de fastfoods.</p>
+                    <a href="https://github.com/yLucino/FoodMine" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
                 </div>
             </div>
-
             <div class="portfolio-box">
-                <img src="./assets/portfolio6.jpg" alt="">
+                <img src="./assets/portfolio/portfolio6.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Desing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, atque!</p>
-                    <a href="https://github.com/yLucino" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+                    <h4>Formulário</h4>
+                    <p>Projeto do curso DevQuest: HTML e CSS Intermediario: Formulário</p>
+                    <a href="https://ylucino.github.io/DevQuest-HTML-Intermediario-Formulario/" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
                 </div>
             </div>
         </div>
@@ -164,19 +169,45 @@
     <!-- contact section desing -->
     <section class="contact" id="contact">
         <h2 class="heading">Entre em <span>Contato!</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Nome completo">
-                <input type="email" placeholder="Endereço de E-mail">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Número de telefone">
-                <input type="text" placeholder="Assunto do E-mail">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
-            <input href="mailto:chiodiniluciano@gmail.com" type="submit" value="Enviar E-mail" class="btn">
-        </form>
+        <nav class="social-media contact">
+            <ul>
+                <li>
+                    <div class="social-icon">
+                        <a href="https://discord.gg/F9NW5xJx" target="_blank"><ion-icon name="logo-discord"></ion-icon></ion-icon></a>
+                        <h2 class="title-contact">Discord</h2>
+                    </div>
+                    <p>Entre no meu canal do discord e fique por dentro das ultimas noticias e novidades de projetos e outros...</p>
+                </li>
+                <li>
+                    <div class="social-icon">
+                        <a href="https://github.com/yLucino" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        <h2 class="title-contact">Github</h2>
+                    </div>
+                    <p>Entre no meu Github e navegue pelos meus projetos antigos e os atuais,garanto que vai gostar tem muita coisa boa e interessante!</p>
+                </li>
+                <li>
+                    <div class="social-icon">
+                        <a href="https://x.com/LucianoChiodin4" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <h2 class="title-contact">Twitter</h2>
+                    </div>
+                    <p>Entre na minha rede social e fique mais proximo de mim, podemos conversar e trocar ideias se você quiser.</p>
+                </li>
+                <li>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/luci_ano_chi/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <h2 class="title-contact">Instagram</h2>
+                    </div>
+                    <p>Entre na minha rede social e fique mais proximo de mim, podemos conversar e trocar ideias se você quiser.</p>
+                </li>
+                <li>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/luciano-chiodini-6a35092b3/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <h2 class="title-contact">Linkedin</h2>
+                    </div>
+                    <p>Entre no meu Linkedin e veja minhas conquistas, habilidades, projetos e tudo sobre minha carreira e área e fora dela.</p>
+                </li>
+            </ul>
+        </nav>
     </section>
 
     <!-- footer desing -->
@@ -184,7 +215,6 @@
         <div class="footer-text">
             <p>Copyright &copy; 2023 by yLucino | All Rights Reserved.</p>
         </div>
-
         <div class="footer-iconTop">
             <a href="#home"><ion-icon name="arrow-up-outline"></ion-icon></a>
         </div>
