@@ -1,6 +1,6 @@
 # Portifolio - yLucino
 
-<img src="assets/AnimaçãoProjetoDesktop.gif" alt="imagem do projeto final">
+<img src="assets/portfolioPreview.gif" alt="imagem do projeto final">
 
 Layout Responsivo | Portifólio
 
