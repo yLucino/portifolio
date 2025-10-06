@@ -110,11 +110,12 @@ ul li {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 30vw;
     background-size: cover;
     border-radius: 60px;
     animation: floatImage 4s ease-in-out infinite;
     margin-left: 60px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.295);
 }
 
 @keyframes floatImage {
